@@ -1,14 +1,18 @@
+
 import 'package:flutter/material.dart';
-class SecondPage extends StatefulWidget {
-  const SecondPage({super.key});
 
-  @override
-  State<SecondPage> createState() => _SecondPageState();
+class Secondpage extends StatefulWidget{
+const Secondpage ({super.key});
+@override
+State <Secondpage> createState() => _SecondpageState();
+
+
 }
-
-class _SecondPageState extends State<SecondPage> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
+class _SecondpageState extends State <Secondpage>{
+@override
+Widget build (BuildContext context){
+  return Scaffold(
+    
+  );
+}
 }
